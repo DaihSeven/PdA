@@ -38,7 +38,7 @@ Lifelong learning"
 Introdução ao LinkedIn
 IA como ferramenta de aprendizagem"
 
-### M2🌱: Escalando montanhas  🧗🏾‍♂️ 
+### M2✅: Escalando montanhas  🧗🏾‍♂️ 
 JS, ES6, POO, Consumindo micro serviços com HTTP's, Tipo de Dados, MVC, JSON	BD's Relacionais e Não Relacionais, Modelagem Relacional, Cardinalidade, Estrutura de Entidades, Carga de Dados, Operações CRUD	NodeJS, API's REST, NPM, Promisses, Rest & CRUD, SQLite, DAO, Jest, Supertest	"ReactJS, Componentes de Classes e eventos, Componentes funcionais, hooks customizados,
 React Bootstrap, Style Components"
 
@@ -56,7 +56,7 @@ Pacote de liderança ágil"
 LinkedIn bilíngue
 Festival de talentos"
 
-### M3🌱: O caminho se faz ao caminhar 👣
+### M3✅: O caminho se faz ao caminhar 👣
 BD's Relacionais e Não Relacionais, Modelagem Relacional, Cardinalidade, Estrutura de Entidades, Carga de Dados, Operações CRUD
 
 "Linguagens de programação (How to use example and description, condition and consequence )
@@ -74,8 +74,8 @@ Aparência e apresentação pessoal"
 ### 	M4🌱: Juntando as peças 🧩	
 NodeJS, API's REST, NPM, Promisses, Rest & CRUD, SQLite, DAO, Jest, Supertest
 
-"Introdução a APIs (""Present Perfect (Discussing experiences, changes over time)
-A linguagem das APIs (""Past Continuous (Discussing past events and actions, such as the development of different programming languages)
+"Introdução a APIs (""Present Perfect (Discussing experiences, changes over time))
+A linguagem das APIs (""Past Continuous (Discussing past events and actions, such as the development of different programming languages))
 Trabalho em equipe: frontend e backend ""Modal Verbs (Discussing possibilities, obligations, and advice in the context of security measures)"
 
 "Storytelling e pitch
@@ -93,7 +93,7 @@ Integração e comunidade com alumnies e mentores da PdA"
 React Bootstrap, Style Components"
 
 "Client-side (Vocabulary (Agreeing and Disagreeing)
-Solucionando problemas do client-side (Adverbs of sequence (first, then, next, finally), Zero and First conditional for cause and effect)
+Solucionando problemas do client-side (Adverbs of sequence (first, then, next, finally), Zero and First conditional for cause and effect))
 Solucionando problemas do client-side (Vocabulary (Reporting Progress, Discussing Problems))"
 
 "LinkedIn e Currículo
