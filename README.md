@@ -1,6 +1,6 @@
 ## CRONOGRAMA DE CONTEÚDOS 🚀📆📈
 
-Julho/2024 - Maio/2025
+Julho/2024 - Julho/2025
 
 
 ### M0✅: Chegando na Nave  🛸	
@@ -71,7 +71,7 @@ Inovação e visão de negócio"
 "Networking com profissional de TI experiente
 Networking com Tech Recruiter
 Aparência e apresentação pessoal"
-### 	M4🌱: Juntando as peças 🧩	
+### 	M4✅: Juntando as peças 🧩	
 NodeJS, API's REST, NPM, Promisses, Rest & CRUD, SQLite, DAO, Jest, Supertest
 
 "Introdução a APIs (""Present Perfect (Discussing experiences, changes over time))
