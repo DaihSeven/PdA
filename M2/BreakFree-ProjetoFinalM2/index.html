@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>Break Free</title>
+  </head>
+  <body >
+    <header>
+      <div class="header-left">
+        <a href="index.html" class="logo">Break Free</a>
+        <button class="menu-toggle" aria-label="Abrir menu" onclick="toggleMenu()">☰</button>
+        <ul class="nav">
+          <li><a href="./pages/understand.html">Entenda</a></li>
+          <li><a href="./pages/types.html">Tipos</a></li>
+          <li><a href="./pages/efects.html">Efeitos</a></li>
+          <li><a href="./pages/tips.html">Dicas</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <a href="./pages/team.html" class="signin">Equipe</a>
+        <a href="#" class="icon-light"  onclick="toggleLightDark();"><i class="bi bi-sun-fill"></i></a>
+        <a href="#" class="icon-dark"   onclick="toggleLightDark();"><i class="bi bi-moon-fill"></i></a>
+      </div>
+    </header>
+    <main>
+    <div class="banner">
+      <div class="content">
+        <h2 class="title">Bem vindos(as) ao Break Free!</h2>
+        <p id="text-star">
+          Aqui você encontra tudo sobre pressão social, desde os tipos quanto dicas de como lidar com isso!
+        </p>
+        <div class="button">
+          <a href="./pages/understand.html" class="btn-left">Sobre</a>
+          <a href="./pages/tips.html" class="btn-right">Dicas</a>
+          <a href="./pages/history.html" class="btn-left">Histórias de Superação</a>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="item">
+          <img src="images/image1.png" alt="">
+        </div><div class="item">
+          <img src="images/image2.png" alt="">
+        </div><div class="item">
+          <img src="images/image3.png" alt="">
+        </div><div class="item">
+          <img src="images/image4.png" alt="">
+        </div><div class="item">
+          <img src="images/image5.png" alt="">
+        </div><div class="item">
+          <img src="images/image6.png" alt="">
+        </div><div class="item">
+          <img src="images/image7.png" alt="">
+        </div><div class="item">
+          <img src="images/image8.png" alt="">
+        </div><div class="item">
+          <img src="images/image9.png" alt="">
+        </div>
+      </div>
+    </div> 
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <i class="bi bi-book-half"></i>
+      <p>Referências</p>
+      <ul>
+        <li><a href="https://educonse.com.br/os-8-tipos-de-pressao-social-como-nos-afetam/" target="_blank">https://educonse.com.br/os-8-tipos-de-pressao-social-como-nos-afetam/</a></li>
+        <li><a href="https://psicologopauloalencar.com.br/como-a-pressao-social-nos-afeta/" target="_blank">https://psicologopauloalencar.com.br/como-a-pressao-social-nos-afeta/</a></li>
+        <li><a href="https://www.pontualpsiquiatria.com.br/post/pressao-social" target="_blank">https://www.pontualpsiquiatria.com.br/post/pressao-social</a></li>
+      </ul>
+    </div>
+  </footer>
+  
+    <script src="./script.js"></script>
+  </body>
+</html>
