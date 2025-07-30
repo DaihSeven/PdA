@@ -1,0 +1,84 @@
+/* Estilos para telas extra-pequenas (até 480px) */
+@media (max-width: 480px) {
+  header {
+    height: 70px;
+  }
+
+  .logo {
+    max-width: 40px;
+    max-height: 20px;
+  }
+
+  .menu-options {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .menu-options a {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .sobre {
+    padding: 10px;
+  }
+}
+  
+  /* Estilos para telas pequenas (até 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    header {
+      height: 80px; 
+    }
+    .logo {
+      max-width: 80px;
+      max-height: 50px;
+    }
+    
+    .menu-options {
+      flex-direction: column;
+      align-items: flex-start; 
+    } 
+    .menu-options a {
+      margin: 5px 0; 
+    }
+    .sobre {
+      padding: 15px;
+    }
+    
+    .hard {
+      justify-content: flex-start;
+    }
+    .soft {
+      justify-content: flex-start;
+    }
+    .habilidades {
+        flex-direction: column;
+    }
+
+    .hard, .soft {
+        width: 100%;
+    } 
+
+  }
+  
+  /* Estilos para telas médias (até 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    header {
+      height: 100px;
+    }
+    .sobre {
+      padding: 20px;
+    }
+    
+  }
+  
+  /* Estilos para telas grandes (a partir de 993px) */
+  @media (min-width: 993px) {
+    header {
+      height: 120px;
+    }
+    .sobre {
+      padding: 30px;
+    }
+    
+  }

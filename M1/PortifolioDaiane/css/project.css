@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+}
+
+#projects {
+    background-image: radial-gradient( #791fd3, #470964);
+    height: 100vh;
+    position: relative;
+
+    & .list {
+        width: 70vw;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        & .item {
+            position: absolute;
+            inset: 0;
+
+            & .car-img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 70%;
+
+                & img {
+                    width: 100%;
+                    height: auto;
+                    transform: rotate(-20deg);
+                }
+            }
+
+            & .content {
+                position: absolute;
+                right: 100px;
+                width: 70%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: end;
+                gap: 20px;
+
+                & .car-information {
+                    font-weight: bold;
+                }
+
+                & h2 {
+                    font-size:4em ;
+                    line-height: 1em;
+
+                }
+
+                & .description {
+                    color:#d9d9d9;
+                    font-size: 12px;
+                    max-width: 400px;
+                }
+
+                & .information {
+                    border-radius: 30px;
+                    height: 35px;
+                    width: 120px;
+                    text-transform: uppercase;
+                    border: 2px solid #791fd3;
+                    background-color: #beff1b;
+                    color: #000;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    & .arrows {
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        justify-content: space-between;
+        transform: translate(-50%, -25px);
+
+        & button{
+    
+            & img {
+                width: 100px;
+               
+            }
+        }
+        
+    }
+
+    & .indicators{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 200px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-self: end;
+        gap: 15px;
+
+        & .number {
+            font-size:3em ;
+        }
+
+        & ul {
+            display: flex;
+            gap: 10px;
+
+            & li {
+                width: 50px;
+                height: 5px;
+                border-radius: 5px;
+                background-color: #beff1b;
+                transition: 0.5s;
+            }
+
+            & .active {
+                background-color: #fff;
+            }
+        }
+    }
+
+    
+}
+
